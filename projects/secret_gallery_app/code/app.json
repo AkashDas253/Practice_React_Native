@@ -1,0 +1,28 @@
+{
+  "expo": {
+    "name": "SecretGallery",
+    "slug": "secret-gallery",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "scheme": "secretgallery",
+    "userInterfaceStyle": "dark",
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#121212"
+      },
+      "predictiveBackGestureEnabled": false
+    },
+    "plugins": [
+      "expo-router",
+      "expo-video",
+      "expo-secure-store"
+    ],
+    "experiments": {
+      "typedRoutes": true,
+      "reactCompiler": true
+    }
+  }
+}
